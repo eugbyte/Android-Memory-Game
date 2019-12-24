@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AB1DD"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginRight="83dp"
+        android:src="@drawable/second_logo">
+
+    </ImageView>
+
+   <!-- <EditText
+        android:id="@+id/editText1"
+        android:layout_width="311dp"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="329dp"
+        android:background="@drawable/edit_text_round"
+        android:hint="@string/hintText"
+        android:paddingLeft="25dp"
+        android:textColorHint="#1C093F"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />-->
+
+    <Button
+        android:id="@+id/btnPlayGame"
+        android:layout_width="242dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="292dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/play"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/LeaderB"
+        android:layout_width="242dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/rounded_button"
+        android:text="@string/LeaderBoard"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        ></Button>
+
+
+</RelativeLayout>

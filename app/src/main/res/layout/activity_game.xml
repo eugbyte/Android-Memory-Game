@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.1"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+
+        <TextView
+            style="@style/ScoreSection"
+            android:layout_weight="0.1"
+
+            android:paddingLeft="10dp"
+
+            android:text="Score" />
+
+        <TextView
+            android:id="@+id/score"
+            style="@style/ScoreSection"
+
+            android:layout_width="wrap_content"
+
+            android:layout_weight="0.2"
+            android:text="0" />
+
+        <Chronometer
+            android:id="@+id/simpleChronometer"
+            android:textSize="15sp"
+            android:layout_width="500px"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="right"
+            android:gravity="top|right" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.9"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="591dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"></GridView>
+
+        <Button
+            android:id="@+id/buttonEnd"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_below="@+id/gridView"
+            android:text="Leader Board"
+            android:background="@drawable/rounded_button"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

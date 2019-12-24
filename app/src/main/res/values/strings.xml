@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GameCA</string>
+    <string name="play">Play Game</string>
+    <string name="hintText">Enter Name</string>
+    <string name="LeaderBoard">Leader Board</string>
+</resources>
