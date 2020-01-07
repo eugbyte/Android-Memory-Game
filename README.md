@@ -1,5 +1,7 @@
 # Android-Memory-Game
 
+Click on the video to view the app!
+
 ## Fellow contributors
 Peter, Khine, Lara, Saif, Samuel, Zhao Min
 
